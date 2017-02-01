@@ -23,7 +23,7 @@ keywords: "Jekyll, theme, mug, free, download, SEO, blog, web"
 url: http://nandomoreira.me
 baseurl: "/mug"
 domain_name: nandomoreira.me
-repo: https://github.com/ismail-syed
+repo: https://github.com/ismail-syed/diversity-is-our-strength
 disqus_shortname: "nandothemes"
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

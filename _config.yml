@@ -21,7 +21,7 @@ title: Mug
 description: "A free Jekyll theme for download"
 keywords: "Jekyll, theme, mug, free, download, SEO, blog, web"
 url: https://ismail-syed.github.io/diversity-is-our-strength/
-baseurl:
+baseurl: https://ismail-syed.github.io/diversity-is-our-strength/
 repo: https://github.com/ismail-syed/diversity-is-our-strength
 disqus_shortname: "nandothemes"
 

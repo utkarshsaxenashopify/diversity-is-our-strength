@@ -20,10 +20,9 @@ name: Mug Jekyll theme
 title: Mug
 description: "A free Jekyll theme for download"
 keywords: "Jekyll, theme, mug, free, download, SEO, blog, web"
-url: http://nandomoreira.me
-baseurl: "/mug"
-domain_name: nandomoreira.me
-repo: https://github.com/ismail-syed
+url: https://ismail-syed.github.io/diversity-is-our-strength/
+baseurl:
+repo: https://github.com/ismail-syed/diversity-is-our-strength
 disqus_shortname: "nandothemes"
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

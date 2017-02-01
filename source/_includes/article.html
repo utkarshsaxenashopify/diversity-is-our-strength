@@ -9,13 +9,12 @@
     </header>
   {% else %}
     <h1>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permalink to: {{ post.title }}">{{ post.title }}</a>
+      <a class="post-link" href="{{ post.social}}" title="Permalink to: {{ post.title }}">{{ post.title }}</a>
     </h1>
     <span class="post-meta">
-      <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}{% if post.category %} | {{ post.category }}{% endif %}</time>
+      <time class="post-date">{{ post.date | date: "%b %-d, %Y" }} - {{ post.time }}{% if post.category %} | {{ post.category }}{% endif %}</time><br>
+      {% if post.from %} <time class="post-date">From: {{ post.from }} </time><br> {% endif %}
+      {% if post.to %} <time class="post-date">To: {{ post.to }} </time><br> {% endif %}
     </span>
-    <p><a href="{{ post.url | prepend: site.baseurl }}" title="Permalink to: {{ post.title }}" class="read-more">{{ post.content | strip_html | truncatewords: 30 }}</a></p>
   {% endif %}
-
-
 </article>
